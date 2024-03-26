@@ -125,8 +125,74 @@
                             ¡Debe seleccionar una opción! 😺
                         </div>
                     </div>
-<!--Agregar los demas campos-->
 
+                    <div class="col-lg-6">
+                        <label for="desarrollador" class="form-label">Nombre de los desarrolladores:</label>
+                        <input name="desarrollador" type="text" class="form-control" id="desarrollador"
+                            placeholder="Ingrese el nombre de los desarrollador" required />
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe ingresar el nombre! 😾
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <label for="idioma" class="form-label">Idiomas disponibles:</label>
+                        <select class="form-select" name="idioma" id="idioma" required>
+                            <option selected disabled value="">Selecciona</option>
+                            <option>Español</option>
+                            <option>Inglés</option>
+                        </select>
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe seleccionar una opción! 😾
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <label for="modo" class="form-label">Modos de juego:</label>
+                        <select class="form-select" name="modo" id="modo" required>
+                            <option selected disabled value="">Selecciona</option>
+                            <option>Un jugador</option>
+                            <option>Multijugador en línea</option>
+                            <option>Cooperativo</option>
+                        </select>
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe seleccionar una opción! 😺
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <label for="descripcion" class="form-label">Sinopsis o Descripción:</label>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="4" required
+                            placeholder="Escriba aquí" class="form-control"></textarea>
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe escribir aquí! 😾
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <label for="precio" class="form-label">Precio:</label>
+                        <input name="precio" type="number" class="form-control" id="precio" 
+                        min="1" max="10000" required />
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe ingresar un precio! 😾
+                        </div>
+                    </div>
+<!--Agregar los demás campos-->
 
                 </div>
                 <hr class="my-4">

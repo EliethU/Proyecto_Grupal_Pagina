@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videojuegos</title>
+    <title>Videojuegos 🎮</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
     crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
@@ -21,7 +22,7 @@
     py-3 mb-4 border-bottom">
         <a href="#" class="d-flex align-items-center mb-3 
         mb-md-0 me-md-auto text-dark text-decoration-none">
-            <span class="fs-4">VIDEOJUEGOS</span>
+            <span class="fs-4">👾🎮 VIDEOJUEGOS 🎮👾</span>
         </a>
         <ul class="nav nav-pills">
             <li class="nav-item">
@@ -360,7 +361,7 @@
         doc.rect(0, 0, 220, 60, 'f');
         doc.setFontSize(14);
         doc.setFontType("bold");
-        doc.text(`VIDEOJUEGOS`, 12, 50);
+        doc.text(`VIDEOJUEGOS🎮`, 12, 50);
 
         const content = `
             Nombre del videojuego: ${nombre}
@@ -383,12 +384,43 @@
         doc.setFontSize(12);
         doc.text(content, 20, 70);
 
-        const docpdf = `VIDEOJUEGOS.pdf`;
+        const docpdf = `👾🎮 VIDEOJUEGOS 🎮👾.pdf`;
         doc.save(docpdf);
     }
 
     </script>
 
+<footer class="page-footer">
+    <div class="container-2">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5>Información</h5>
+                <p>
+                    ¡"Sumérgete en la diversión digital en nuestro centro de videojuegos!" 🎮
+                </p>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-tezt">Contacto</h5>
+                <ul>
+                <li><a class="cr" href="#!">Teléfono</a></li>
+                <li><a class="cr" href="#!">Correo</a></li>
+                <li><a class="cr" href="#!">Dirección</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Diseñado por Byron Efraín González García
+        </div>
+        <div class="container">
+            Diseñado por Elieth Izanana Umaña Duarte
+        </div>
+        <div class="container">
+            Diseñado por Jonsel Josué López Díaz
+        </div>
+    </div>
+</footer>
 
 
 

@@ -1,0 +1,113 @@
+/*Estilos para dispositivos grandes */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+
+  /* Estilos para dispositivos medianos */
+    @media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    }
+
+  /* Estilos para dispositivos pequeñs */
+    @media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    }
+
+/*Estilo apara el encabezado*/
+    .container-1 {
+        background-color: rgb(94, 47, 128);
+    }
+
+    .header {
+        background-color: rgb(94, 47, 128);
+    }
+
+    .fs-4 {
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        position: absolute;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'sans-serif';
+        margin-left: 80px;
+    }
+
+    .nav-pills .nav-item {
+        margin-right: 10px;
+    }
+    
+    .nav-pills .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    
+    .nav-pills .nav-link.active {
+        color: rgb(133, 59, 194);
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+    
+    .bi-facebook, .bi-instagram {
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+
+/*Estilo para el cuerpo de página*/
+
+    .form-label {
+        color: rgb(133, 59, 194);
+    }
+
+    h4 {
+        color: rgb(133, 59, 194);
+    }
+
+    .form-select {
+        border-color: rgba(180, 125, 231, 0.671);
+}
+
+
+/*Estilo para el boton*/
+    .btn-primary {
+        background-color: rgb(94, 47, 128);
+        border-color: rgba(180, 125, 231, 0.671); 
+        color: #ffffff; 
+    }
+    
+    .btn-primary:hover {
+        background-color: rgba(180, 125, 231, 0.671); 
+        border-color: #ffffff; 
+    }
+
+/*Estilo para el pie de pagina*/
+.container-2 {
+    background-color: rgb(94, 47, 128);
+}
+
+.page-footer {
+    background-color: rgb(94, 47, 128);
+    color: #ffffff;
+}
+
+.page-footer h5 {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.page-footer p {
+    color: #ffffff;
+}
+
+.page-footer a {
+    color: #ffffff;
+}
+
+.page-footer a:hover {
+    color: #c8cbcf;
+}
+
+

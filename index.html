@@ -343,14 +343,14 @@
         const tamano = document.getElementById('tamano').value.trim();
         const modelo = document.getElementById('modelo').value.trim();
         const stock = document.getElementById('stock').value.trim();
-        const imagen = document.getElementById('imagen').value.trim();
+        const completado= document.getElementById('completado').value.trim();
         
 
 
         if (nombre === '' || genero === ''||plataforma === '' ||
         fecha === '' || clasificacion === '' || desarrollador === '' || idioma === '' ||
         modo === '' || premio === '' || descripcion === ''|| precio === '' || tamano === '' ||
-        modelo === '' || stock === '' || imagen === '' ) {
+        modelo === '' || stock === '' || completado === '' ) {
         
             return;
         }
@@ -377,7 +377,7 @@
             Tamaño de carga: ${tamano}
             Modelo del producto: ${modelo}
             Cantidad: ${stock}
-            Imagen del videojuego: ${imagen}
+            Estado de completado: ${completado}
             `;
 
         doc.setFontSize(12);

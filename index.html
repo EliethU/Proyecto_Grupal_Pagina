@@ -16,7 +16,7 @@
 
 <body>
 
-<div class="container-1"> <!--mejorar y agregar los 5 campos en el encabezado-->
+<div class="container-1"> 
     <header class="d-flex flex-wrap justify-content-center 
     py-3 mb-4 border-bottom">
         <a href="#" class="d-flex align-items-center mb-3 
@@ -25,7 +25,7 @@
         </a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a href=""
+                <a href="https://www.facebook.com/marlongsaladevideos.sr"
                 class="nav-link">
                     Facebook
                     <i class="bi-facebook">
@@ -33,15 +33,41 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href=""
+                <a href="https://www.instagram.com/josneljosuelopezdiaz/"
                 class="nav-link active">
                     Instagram
                     <i class="bi-instagram">
                     </i>
                 </a>
             </li>
-        </ul>
+            <li class="nav-item">
+                <a href="https://web.whatsapp.com/send?phone=+50558329526&text=Hola,%20Videojuegoss" class="nav-link">
+                    Whatsapp
+                <i class="bi-whatsapp">
+                </i>
+                </a>
+            </li>
 
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <li class="nav-item">
+                <a href="https://twitter.com/X"
+                class="nav-link active">
+                    X
+                <i class="bi-X">
+                </i>
+                </a>
+            </li>
+
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <li class="nav-item">
+                <a href="https://www.tiktok.com/es/"
+                class="nav-link active">
+                    Tik Tok
+                <i class="bi-tiktok">
+                </i>
+                </a>
+            </li>
+        </ul>
         
     </header>
 </div>
@@ -50,13 +76,13 @@
     <div class="container">
         <main> <!--Agregar que correo se enviaran los formularios-->
             <h4 class="mb-3 mt-2">Registro de videojuegos</h4>
-            <form action="https://formsubmit.co/izaduartes2214@gmail.com" 
+            <form action="https://formsubmit.co/izaduartes2214.com" 
             method="POST" 
             class="needs-validation" 
             novalidate
             enctype="multipart/form-data">
                 <div class="row g-3">
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <label for="nombre" class="form-label">Nombre del videojuego:</label>
                         <input name="nombre" type="text" class="form-control" id="nombre"
                                 placeholder="Ingrese el nombre del videojuego" required />
@@ -100,7 +126,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <label for="fecha" class="form-label">Fecha de lanzamiento:</label>
                         <input name="fecha" type="date" class="form-control" id="fecha" required />
                         <div class="valid-feedback">
@@ -126,7 +152,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <label for="desarrollador" class="form-label">Nombre de los desarrolladores:</label>
                         <input name="desarrollador" type="text" class="form-control" id="desarrollador"
                             placeholder="Ingrese el nombre de los desarrollador" required />
@@ -169,6 +195,17 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-4">
+                        <label for="premio" class="form-label">Premios:</label>
+                        <input name="premio" type="text" class="form-control" id="premio" required />
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe seleccionar una imagen! 😾
+                        </div>
+                    </div>
+
                     <div class="col-lg-12">
                         <label for="descripcion" class="form-label">Sinopsis o Descripción:</label>
                         <textarea name="descripcion" id="descripcion" cols="30" rows="4" required
@@ -192,9 +229,56 @@
                             ¡Debe ingresar un precio! 😾
                         </div>
                     </div>
-<!--Agregar los demás campos-->
+
+                    <div class="col-lg-4">
+                        <label for="tamano" class="form-label">Tamaño de carga:</label>
+                        <input name="tamano" type="text" class="form-control" id="tamano" 
+                        min="1" max="10000" required />
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe ingresar un precio! 😾
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <label for="modelo" class="form-label">Modelo del producto:</label>
+                        <input name="modelo" type="modelo" class="form-control" id="modelo" 
+                        min="1" max="10000" required />
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe ingresar un precio! 😾
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <label for="stock" class="form-label">Cantidad:</label>
+                        <input name="stock" type="number" class="form-control" id="stock" 
+                        min="1" max="1000" required />
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            Debe ingresar una cantidad 😾
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <label for="imagen" class="form-label">Imagen del videojuego:</label>
+                        <input name="imagen" type="file" class="form-control" id="imagen" accept="image/*" required />
+                        <div class="valid-feedback">
+                            ¡Correcto! 😺
+                        </div>
+                        <div class="invalid-feedback">
+                            ¡Debe seleccionar una imagen! 😾
+                        </div>
+                    </div>
 
                 </div>
+
                 <hr class="my-4">
                 <button type="submit" class="btn btn-primary btn-lg" onclick="registrarVideojuego()">
                     REGISTRAR VIDEOJUEGO
